@@ -1,0 +1,25 @@
+{
+    "dishes": [
+        {
+            "id": 1,
+            "name": "Margherita Pizza",
+            "price": 12.99,
+            "description": "Fresh tomatoes, mozzarella, basil, and olive oil on a crispy crust",
+            "image": "images/margherita.jpg"
+        },
+        {
+            "id": 2,
+            "name": "Caesar Salad",
+            "price": 8.99,
+            "description": "Crisp romaine lettuce, parmesan cheese, croutons, and Caesar dressing",
+            "image": "images/caesar.jpg"
+        },
+        {
+            "id": 3,
+            "name": "Pasta Carbonara",
+            "price": 14.99,
+            "description": "Spaghetti with crispy pancetta, egg, pecorino cheese, and black pepper",
+            "image": "images/carbonara.jpg"
+        }
+    ]
+} 
