@@ -6,7 +6,7 @@
 }
 
 .menu-item img {
-    max-width: 100%;
+    max-width: 50%;
     height: auto;
     border-radius: 4px;
 }
@@ -16,11 +16,36 @@
     margin-top: 15px;
     padding-top: 15px;
     border-top: 1px solid #eee;
+    flex-direction: row;
+    align-items: start;
+}
+
+.description-section.show {
+    display: flex !important;
+}
+
+.main-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .quantity-control {
     width: 80px;
     display: inline-block;
+}
+
+.htext   {
+    display: flex;
+    align-items: center;
+}
+
+.price {
+    width: 25%;
+}
+
+.input-group {
+    width: 75%;
 }
 
 .cart-item {
@@ -32,3 +57,138 @@
     max-width: 100px;
     height: auto;
 } 
+
+
+/* Footer Styles */
+.footer {
+    background-color: #343a40;
+    color: #fff;
+    padding: 2rem 0;
+    margin-top: auto;
+}
+
+.footer h5 {
+    color: #fff;
+    margin-bottom: 1rem;
+}
+
+.footer-links {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links li {
+    margin-bottom: 0.5rem;
+}
+
+.footer-links a {
+    color: #adb5bd;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.footer-links a:hover {
+    color: #fff;
+}
+
+.social-links {
+    font-size: 1.5rem;
+}
+
+.social-links a {
+    color: #adb5bd;
+    margin-right: 1rem;
+    transition: color 0.3s;
+}
+
+.social-links a:hover {
+    color: #fff;
+}
+
+/* Make footer stick to bottom */
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    flex: 1;
+}
+
+/* Supplement Styles */
+.supplement-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin-bottom: 30px;
+    transition: transform 0.3s ease;
+}
+
+.supplement-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.supplement-card .card-header {
+    background-color: #343a40;
+    color: white;
+    padding: 15px;
+    border-radius: 8px 8px 0 0;
+}
+
+.supplement-card .card-body {
+    padding: 20px;
+}
+
+.supplement-card .source-link {
+    color: #6c757d;
+    text-decoration: none;
+    font-size: 0.9em;
+}
+
+.supplement-card .source-link:hover {
+    color: #343a40;
+    text-decoration: underline;
+}
+
+.benefits-list {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.benefits-list li {
+    margin-bottom: 8px;
+    padding-left: 20px;
+    position: relative;
+}
+
+.benefits-list li:before {
+    content: "•";
+    color: #343a40;
+    position: absolute;
+    left: 0;
+}
+
+/* Add to cart animation */
+.menu-item h3 {
+    transition: color 0.3s ease;
+}
+
+.menu-item h3.added {
+    animation: flash-green 0.3s ease;
+}
+
+.menu-item h3.in-cart {
+    color: #28a745;  /* Bootstrap's green color */
+}
+
+@keyframes flash-green {
+    0% { color: inherit; }
+    50% { color: #28a745; }
+    100% { color: inherit; }
+}
+
+.description-section .row {
+    width: 100%;
+    margin: 0;
+}

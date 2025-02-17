@@ -1,25 +1,69 @@
 {
-    "dishes": [
+    "котлеты": [
         {
             "id": 1,
-            "name": "Margherita Pizza",
-            "price": 12.99,
-            "description": "Fresh tomatoes, mozzarella, basil, and olive oil on a crispy crust",
-            "image": "images/margherita.jpg"
+            "name": "Котлеты из говядины / Beef Cutlets",
+            "price": 22.50,
+            "description": "Сочное мясное блюдо из отборной говядины, идеально подходит для заморозки и дальнейшего приготовления.",
+            "image": "img/food.avif" 
         },
         {
             "id": 2,
-            "name": "Caesar Salad",
-            "price": 8.99,
-            "description": "Crisp romaine lettuce, parmesan cheese, croutons, and Caesar dressing",
-            "image": "images/caesar.jpg"
+            "name": "Котлеты из свинины / Pork Cutlets",
+            "price": 25.00,
+            "description": "Сочные котлеты из свинины, идеально подходят для заморозки и дальнейшего приготовления.",
+            "image": "img/food.avif" 
         },
         {
             "id": 3,
-            "name": "Pasta Carbonara",
-            "price": 14.99,
-            "description": "Spaghetti with crispy pancetta, egg, pecorino cheese, and black pepper",
-            "image": "images/carbonara.jpg"
+            "name": "Котлеты с сыром / Cheese-Stuffed Cutlets",
+            "price": 40.00,
+            "description": "Сочные котлеты с начинкой из сыра, идеально подходят для заморозки и дальнейшего приготовления.",
+            "image": "img/food.avif" 
+        }
+    ],
+
+    "Биточки": [
+        {
+            "id": 1,
+            "name": "Биточки из говядины / Beef Bitochki",
+            "price": 27.50,
+            "description": "Классические биточки из говядины, идеально подходят для заморозки и дальнейшего приготовления.",
+            "image": "img/food.avif" 
+        }
+    ],
+    "тефтели": [
+        {
+            "id": 1,
+            "name": "Классические тефтели / Classic Tefteli",
+            "price": 30.00,
+            "description": "Традиционные тефтели в соусе, идеально подходят для заморозки и дальнейшего приготовления.",
+            "image": "img/food.avif" 
+        }
+    ],
+    "фрикадельки": [
+        {
+            "id": 1,
+            "name": "Классические фрикадельки / Classic Meatballs",
+            "price": 30.00,
+            "description": "Нежные фрикадельки из смешанного фарша, идеально подходят для заморозки и дальнейшего приготовления.",
+            "image": "img/food.avif" 
+        }
+    ],
+    "соусы": [
+        {
+            "id": 1,
+            "name": "Сырный соус / Cheese Sauce",
+            "price": 2.99,
+            "description": "Нежный сырный соус, отлично дополняет любое мясное блюдо",
+            "image": "img/food.avif"
+        },
+        {
+            "id": 2,
+            "name": "Сливочный соус / Cream Sauce",
+            "price": 2.99,
+                "description": "Классический сливочный соус с травами",
+            "image": "img/food.avif"
         }
     ]
 } 

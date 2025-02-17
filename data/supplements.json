@@ -1,0 +1,102 @@
+{
+    "supplements": [
+        {
+            "id": 1,
+            "name": "Vitamin D",
+            "description": "Known as the sunshine vitamin, Vitamin D is crucial for bone health and immune system function.",
+            "benefits": [
+                "Supports bone health",
+                "Boosts immune system",
+                "Improves mood",
+                "Helps with calcium absorption"
+            ],
+            "recommendedDose": "1000-4000 IU daily",
+            "warnings": "High doses may cause toxicity. Consult healthcare provider before supplementing.",
+            "source": "https://ods.od.nih.gov/factsheets/VitaminD-HealthProfessional/"
+        },
+        {
+            "id": 2,
+            "name": "Omega-3 Fish Oil",
+            "description": "Essential fatty acids that support heart, brain, and joint health.",
+            "benefits": [
+                "Supports cardiovascular health",
+                "Improves brain function",
+                "Reduces inflammation",
+                "Supports eye health"
+            ],
+            "recommendedDose": "1000-2000mg daily",
+            "warnings": "May interact with blood-thinning medications.",
+            "source": "https://ods.od.nih.gov/factsheets/Omega3FattyAcids-HealthProfessional/"
+        },
+        {
+            "id": 3,
+            "name": "Magnesium",
+            "description": "An essential mineral involved in over 300 enzymatic reactions in the body.",
+            "benefits": [
+                "Supports muscle and nerve function",
+                "Helps with energy production",
+                "Promotes better sleep",
+                "Supports bone health"
+            ],
+            "recommendedDose": "310-420mg daily",
+            "warnings": "High doses may cause digestive issues.",
+            "source": "https://ods.od.nih.gov/factsheets/Magnesium-HealthProfessional/"
+        },
+        {
+            "id": 4,
+            "name": "Nitrite Salt (Sodium Nitrite)",
+            "description": "A food additive used in curing meats and preserving food. It prevents bacterial growth and adds characteristic flavor and color to cured meats.",
+            "benefits": [
+                "Prevents growth of Clostridium botulinum bacteria",
+                "Preserves meat color",
+                "Adds distinctive cured meat flavor",
+                "Extends shelf life of meat products"
+            ],
+            "recommendedDose": "Maximum 156ppm (parts per million) in finished meat products",
+            "warnings": "TOXIC in pure form. Must be properly diluted. For food industry use only. Excessive consumption may form nitrosamines. Keep away from children.",
+            "source": "https://www.fda.gov/food/ingredients-additives-gras-packaging-guidance-documents-regulatory-information/sodium-nitrite"
+        },
+        {
+            "id": 5,
+            "name": "E338 - Ортофосфорная кислота / Orthophosphoric Acid",
+            "description": "Пищевая добавка, регулятор кислотности. Используется в производстве газированных напитков и как консервант.",
+            "benefits": [
+                "Регулирует кислотность продуктов",
+                "Усиливает действие антиоксидантов",
+                "Предотвращает образование комков",
+                "Улучшает стабильность продукта"
+            ],
+            "recommendedDose": "До 0.5% от массы готового продукта",
+            "warnings": "Может влиять на усвоение кальция. Не рекомендуется людям с заболеваниями почек.",
+            "source": "https://www.efsa.europa.eu/en/topics/topic/phosphates"
+        },
+        {
+            "id": 6,
+            "name": "E339-E341 - Фосфаты / Phosphates (Na, K, Ca)",
+            "description": "Группа пищевых добавок на основе фосфатов натрия, калия и кальция. Используются как эмульгаторы и стабилизаторы.",
+            "benefits": [
+                "Улучшают текстуру продуктов",
+                "Предотвращают окисление",
+                "Стабилизируют pH",
+                "Увеличивают срок хранения"
+            ],
+            "recommendedDose": "Максимум 2.5г/кг в готовом продукте (суммарно для всех фосфатов)",
+            "warnings": "Избыточное потребление может нарушить баланс кальция в организме. Контролировать потребление при заболеваниях почек.",
+            "source": "https://www.efsa.europa.eu/en/topics/topic/phosphates"
+        },
+        {
+            "id": 7,
+            "name": "E450-E452 - Полифосфаты / Polyphosphates",
+            "description": "Комплексные соединения фосфатов, используемые как влагоудерживающие агенты и эмульгаторы в пищевой промышленности.",
+            "benefits": [
+                "Удерживают влагу в продуктах",
+                "Улучшают консистенцию",
+                "Предотвращают потерю цвета",
+                "Повышают стабильность эмульсий"
+            ],
+            "recommendedDose": "До 3г/кг в готовом продукте для E450, до 5г/кг для E451-E452",
+            "warnings": "Может нарушать усвоение минералов. Ограничить потребление при остеопорозе и проблемах с почками. Избегать длительного применения в высоких дозах.",
+            "source": "https://www.efsa.europa.eu/en/topics/topic/phosphates"
+        }
+    ]
+} 
